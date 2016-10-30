@@ -327,11 +327,9 @@ INTRO
   .text-intro {
     /*background-image: -webkit-linear-gradient(left, color-stop(#ff7473 0%), color-stop(#46426f 60%));*/
     /*background-image: linear-gradient(to right, #ff7473 0%, #46426f 60%);*/
-    background-image: url('../img/beach.jpg');
-    background-size: 100% 100%;
-    height: 600px;
-    /*background-repeat: repeat-x;*/
-    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);*/
+    background-image: url('../img/italy.jpg');
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);
   }
 }
 @media (max-width: 1199px) {

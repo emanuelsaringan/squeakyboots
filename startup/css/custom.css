@@ -1,8 +1,27 @@
 /* your styles go here */
+body {
+  padding-top: 0px;
+}
+
 .navbar-default {
   background-color: rgb(218,159,31);
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF;
+}
+
+section {
+  height: 100vh;
+}
+
+#intro {
+  background-position: center center;
+  background-size: cover;
+}
+
+#intro_text {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
 }
