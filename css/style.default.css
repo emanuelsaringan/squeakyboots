@@ -325,9 +325,8 @@ INTRO
 }
 @media (min-width: 1200px) {
   .text-intro {
-    /*background-image: -webkit-linear-gradient(left, color-stop(#ff7473 0%), color-stop(#46426f 60%));*/
-    /*background-image: linear-gradient(to right, #ff7473 0%, #46426f 60%);*/
-    background-image: url('../img/italy.jpg');
+    background-image: -webkit-linear-gradient(left, color-stop(#ff7473 0%), color-stop(#46426f 60%));
+    background-image: linear-gradient(to right, #ff7473 0%, #46426f 60%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);
   }

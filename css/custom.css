@@ -11,6 +11,10 @@ body {
   color: #FFFFFF;
 }
 
+.text-intro {
+  background-image: url('../img/italy.jpg');
+}
+
 #intro {
   height: 100vh;
   background-position: center center;
