@@ -1,0 +1,8 @@
+/* your styles go here */
+.navbar-default {
+  background-color: rgb(218,159,31);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
