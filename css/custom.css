@@ -7,7 +7,7 @@ body {
   background-color: rgb(218,159,31);
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a, .navbar-toggle {
   color: #FFFFFF;
 }
 
@@ -25,4 +25,57 @@ body {
   position: relative;
   top: 40%;
   transform: translateY(-50%);
+}
+
+/* Make the navbar shorter. */
+.navbar-nav > li > a, .navbar-brand {
+  padding-top: 9px !important;
+  padding-bottom: 0 !important;
+  height: 50px;
+}
+
+.navbar {
+  min-height: 50px !important;
+}
+
+/* Retain color when hovering nav link. */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF;
+}
+
+.navbar ul.nav > li > a:hover,
+.navbar ul.nav > li.active > a,
+.navbar ul.nav > li.open > a {
+  border-top-color: #FFFF00;  /* yellow */
+}
+
+/* Remove rounded corners and make it yellow. */
+#submit_intro {
+  background-color: #FFFF00;  /* yellow */
+  border-radius: 0px;
+}
+
+/* Make the try panel yellow with white text. */
+#try {
+  background-color: #FFFF00;  /* yellow */
+  color: #FFFFFF;
+}
+
+#try h2 {
+  color: #FFFFFF;
+}
+
+/* Make footer gray. */
+.footer__copyright {
+  background-color: #696969;
+}
+
+/* Make FB and email icons yellow. */
+#contact .icon, #contact .icon i {
+  border-color: #FFFF00;  /* yellow */
+  color: #FFFF00;  /* yellow */
 }
