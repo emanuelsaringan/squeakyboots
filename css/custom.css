@@ -15,6 +15,15 @@ body {
   background-image: url('../img/italy.jpg');
 }
 
+
+.subheading {
+  font-size: 2em;
+}
+
+.external {
+  color: rgb(218,159,31);
+}
+
 #intro {
   height: 100vh;
   background-position: center center;
@@ -24,7 +33,23 @@ body {
 #intro_text {
   position: relative;
   top: 40%;
+  text-align: left;
   transform: translateY(-50%);
+}
+
+#cta_major {
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#cta_minor {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#video {
+  width: 100%;
 }
 
 /* Make the navbar shorter. */
@@ -35,7 +60,8 @@ body {
 }
 
 .navbar {
-  min-height: 50px !important;
+  min-height: 50px;
+  opacity: 0.9;
 }
 
 /* Retain color when hovering nav link. */
@@ -50,18 +76,18 @@ body {
 .navbar ul.nav > li > a:hover,
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
-  border-top-color: #FFFF00;  /* yellow */
+  border-top-color: #FFFFFF;
 }
 
-/* Remove rounded corners and make it yellow. */
+/* Remove rounded corners. */
 #submit_intro {
-  background-color: #FFFF00;  /* yellow */
+  background-color: rgb(218,159,31);
   border-radius: 0px;
 }
 
 /* Make the try panel yellow with white text. */
 #try {
-  background-color: #FFFF00;  /* yellow */
+  background-color: rgb(218,159,31);
   color: #FFFFFF;
 }
 
@@ -76,6 +102,6 @@ body {
 
 /* Make FB and email icons yellow. */
 #contact .icon, #contact .icon i {
-  border-color: #FFFF00;  /* yellow */
-  color: #FFFF00;  /* yellow */
+  border-color: rgb(218,159,31);
+  color: rgb(218,159,31);
 }
