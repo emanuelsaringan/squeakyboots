@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-default {
-  background-color: rgb(218,159,31);
+  background-color: #E2AD27;
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-toggle {
@@ -21,7 +21,7 @@ body {
 }
 
 .external {
-  color: rgb(218,159,31);
+  color: #E2AD27;
 }
 
 #intro {
@@ -81,13 +81,13 @@ body {
 
 /* Remove rounded corners. */
 #submit_intro {
-  background-color: rgb(218,159,31);
+  background-color: #E2AD27;
   border-radius: 0px;
 }
 
 /* Make the try panel yellow with white text. */
 #try {
-  background-color: rgb(218,159,31);
+  background-color: #E2AD27;
   color: #FFFFFF;
 }
 
@@ -102,6 +102,6 @@ body {
 
 /* Make FB and email icons yellow. */
 #contact .icon, #contact .icon i {
-  border-color: rgb(218,159,31);
-  color: rgb(218,159,31);
+  border-color: #E2AD27;
+  color: #E2AD27;
 }
