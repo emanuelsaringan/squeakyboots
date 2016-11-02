@@ -37,15 +37,19 @@ body {
   transform: translateY(-50%);
 }
 
-#cta_major {
+#intro_text .cta_major {
   color: #FFFFFF;
   font-size: 2em;
   font-weight: bold;
 }
 
-#cta_minor {
+#intro_text .cta_minor {
   color: #FFFFFF;
   font-size: 1.5em;
+}
+
+#stay_tuned {
+  color: #E2AD27;
 }
 
 #video {
@@ -62,6 +66,7 @@ body {
 .navbar {
   min-height: 50px;
   opacity: 0.9;
+  box-shadow: none;
 }
 
 /* Retain color when hovering nav link. */
@@ -82,6 +87,7 @@ body {
 /* Remove rounded corners. */
 #submit_intro {
   background-color: #E2AD27;
+  border-color: transparent;
   border-radius: 0px;
 }
 
