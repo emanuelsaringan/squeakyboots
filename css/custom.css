@@ -101,6 +101,11 @@ body {
   color: #FFFFFF;
 }
 
+#try a {
+  color: #696969;
+  font-weight: bold;
+}
+
 /* Make footer gray. */
 .footer__copyright {
   background-color: #696969;
